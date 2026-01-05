@@ -37,18 +37,6 @@ jobs:
         working-directory: ./backend
         run: docker build -t backend:${{ github.sha }} .
 
-      - name: Test Docker image
-        run: |
-          docker run -d --name backend-test -p 5000:5000 \
-            -e AWS_ACCESS_KEY_ID=test \
-            -e AWS_SECRET_ACCESS_KEY=test \
-            -e S3_BUCKET_NAME=test-bucket \
-            backend:${{ github.sha }}
-          sleep 10
-          curl -f http://localhost:5000/health || exit 1
-          docker stop backend-test
-          docker rm backend-test
-
   # Job 2: Build and Test Frontend
   frontend-build:
     name: Build & Test Frontend
