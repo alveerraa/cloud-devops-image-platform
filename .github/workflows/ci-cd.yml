@@ -8,7 +8,7 @@ on:
 
 env:
   DOCKER_REGISTRY: ghcr.io
-  IMAGE_PREFIX: ${{ github.repository_owner }}/cloud-native-image-management-platform
+  IMAGE_PREFIX: alveerraa/cloud-native-image-management-platform
 
 ############################
 # JOB 1 — Backend CI
