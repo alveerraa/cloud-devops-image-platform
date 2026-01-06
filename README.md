@@ -49,7 +49,6 @@ This platform enables users to upload, manage, and process images through a resp
 
 <img width="1344" height="908" alt="Screenshot 2026-01-06 at 4 23 43 AM" src="https://github.com/user-attachments/assets/1a18e1d8-b0d1-4cd1-b6c9-0c43fd84ea6d" />
 <img width="1344" height="629" alt="Screenshot 2026-01-06 at 4 23 53 AM" src="https://github.com/user-attachments/assets/146cf3bf-b263-43a9-abeb-c29633a57d12" />
-<img width="893" height="697" alt="Screenshot 2026-01-06 at 4 25 54 AM" src="https://github.com/user-attachments/assets/7eb3087c-b77a-4394-8916-3e875b2370d3" />
 
 
 **Perfect for:**
